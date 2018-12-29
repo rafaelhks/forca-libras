@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="620.0" prefWidth="525.0" style="-fx-background-color: #00264d;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Classes.TelaController">
+   <children>
+      <VBox alignment="CENTER" prefHeight="620.0" prefWidth="525.0" style="-fx-background-color: #00264d;" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0">
+         <children>
+            <AnchorPane prefHeight="233.0" prefWidth="522.0" style="-fx-background-color: #00264d; -fx-border-color: #cccccc; -fx-border-radius: 7;">
+               <children>
+                  <ImageView fx:id="animView" fitHeight="201.0" fitWidth="201.0" layoutX="164.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="5.0" AnchorPane.topAnchor="5.0" />
+               </children>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </AnchorPane>
+            <AnchorPane prefHeight="55.0" prefWidth="522.0" style="-fx-background-color: #00264d;">
+               <children>
+                  <Label fx:id="lblPalavra" layoutX="3.0" layoutY="6.0" prefHeight="25.0" prefWidth="522.0" style="-fx-border-color: #cccccc; -fx-border-radius: 7;" text="Label" textFill="WHITE" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+                     <font>
+                        <Font name="Comic Sans MS" size="16.0" />
+                     </font>
+                     <padding>
+                        <Insets left="5.0" right="5.0" />
+                     </padding>
+                  </Label>
+                  <Label fx:id="lblDica" layoutX="3.0" layoutY="35.0" prefHeight="25.0" prefWidth="522.0" style="-fx-border-color: #cccccc; -fx-border-radius: 7;" text="Label" textFill="WHITE" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+                     <font>
+                        <Font name="Comic Sans MS" size="16.0" />
+                     </font>
+                     <padding>
+                        <Insets left="5.0" right="5.0" />
+                     </padding>
+                  </Label>
+               </children>
+               <padding>
+                  <Insets bottom="5.0" top="5.0" />
+               </padding>
+            </AnchorPane>
+            <ScrollPane hbarPolicy="NEVER" prefHeight="315.0" prefWidth="525.0" style="-fx-background-color: #00264d;" vbarPolicy="NEVER">
+               <content>
+                  <AnchorPane maxHeight="343.0" maxWidth="525.0" prefHeight="324.0" prefWidth="525.0" style="-fx-background-color: #00264d;">
+                     <children>
+                        <GridPane fx:id="buttonGrid" layoutY="-1.0" maxHeight="345.0" maxWidth="525.0" prefHeight="314.0" prefWidth="525.0" style="-fx-background-color: #00264d;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                     </children>
+                  </AnchorPane>
+               </content>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </ScrollPane>
+         </children>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </VBox>
+   </children>
+</AnchorPane>
