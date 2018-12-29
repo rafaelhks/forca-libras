@@ -1,3 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+*.html linguist-language=Java
 *.fxml linguist-language=Java
+
